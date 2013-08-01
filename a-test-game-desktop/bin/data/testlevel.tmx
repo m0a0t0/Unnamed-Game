@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="12" tileheight="12">
+ <tileset firstgid="1" name="ImageMap" tilewidth="12" tileheight="12">
+  <image source="ImageMap.png" width="128" height="128"/>
+  <tile id="32">
+   <properties>
+    <property name="ladder" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Terrain" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgagBGImYCYmUrmiQKxOBCLYbGDgUr2yAMxH5StQGXzlBgocyPIr8pI5oFoBSL0MeEQh7mNVPNwAWqaB/MrCxQzoLHxAWxpTh6HXmLMg/mDDQlTwzwBJAwzD4RZkTAx5o2CUUAKAAAJywOB
+  </data>
+ </layer>
+ <layer name="No collision" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAd0KGh2bQETFQ2j2/UvEFlHguVzaMW0BpoB4yCUUAiAAC7BgCj
+  </data>
+ </layer>
+ <layer name="Ladder" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF6EBx1LxR84aReaNgFNAKAACTSAEq
+  </data>
+ </layer>
+ <objectgroup name="Object layer" width="20" height="20">
+  <object name="Player" x="1" y="101" width="9" height="9"/>
+ </objectgroup>
+</map>
